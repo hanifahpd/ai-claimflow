@@ -5,6 +5,8 @@ n8n-openai-email-triage
 
 An n8n and AI-powered automation workflow that reads incoming claims emails, extracts structured case identifiers using an LLM, locates the matching insurance case (`INScase`) in the internal portal, and automatically posts comments, tags, and attachments to the ticket.
 
+![ai-claimflow](./claim workflow architecture.jpg)
+
 ## Question
 
 How can we eliminate manual email triage and reduce claim-update latency by automatically matching incoming emails to their corresponding insurance cases (`INScase`), logging the message as a ticket comment, applying relevant tags, and uploading attachments—even when the case ID is not explicitly stated in the email?
